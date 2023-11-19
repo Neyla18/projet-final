@@ -2,8 +2,7 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 import './footer.css'
-import { fainstagram} from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 
 
@@ -19,7 +18,7 @@ const Footer = () => {
 			<p>N'hésitez pas à nous envoyer un message,</p>
 			<p>nous serons ravis de répondre à vos questions, suggestions ou tout autre besoin d'assistance. </p>
 			<p>Votre satisfaction est notre priorité à la Bibliothèque Émeraude, alors n'hésitez pas à nous contacter dès maintenant !</p>
-	=
+	
 
 		   
 					<h3>Adresse</h3>

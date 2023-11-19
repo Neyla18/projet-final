@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 
 const Deconnexion = () => {
-  // à ranger
+
   const navigate = useNavigate();
 
   const handleLogout = async () => {

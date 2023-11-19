@@ -36,9 +36,9 @@ export const getNew = (req, res) => {
 };
 
 
-//récupérer un livre par son id
+
 export const getOne = (req, res) => {
-  const bookId = req.params.id; // Supposons que l'ID soit passé en tant que paramètre dans l'URL
+  const bookId = req.params.id; 
   const queryBook = "SELECT * FROM book WHERE id = ?";
   
   db.query(queryBook, [bookId], (err, result) => {
@@ -122,7 +122,7 @@ export const updateBook = (req, res) => {
   db.query(query, [...values, bookId], (err, data) => {
     if (err) {
       console.error("Error updating book:", err);
-      return res.status(500).send(err); // Répondre avec une erreur 500 en cas d'erreur de serveur
+      return res.status(500).send(err); 
     }
     console.log("Book updated successfully:", data);
     return res.json(data);
