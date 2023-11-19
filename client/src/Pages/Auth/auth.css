@@ -1,0 +1,83 @@
+.auth-page{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: #dfdfdf;
+
+  
+
+}
+
+
+
+.auth-img{
+display: none;
+}
+
+form{
+  border-radius: 12px;
+  margin: auto;
+  width: 94%;
+ background-color: white;
+  padding: 7rem 2rem 7rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+gap: 1.3rem;
+
+}
+
+input,
+.login{
+  border: none;
+  border-radius: 19px;
+  padding: 1.2rem 4rem 1.2rem 4rem;
+
+}
+
+
+
+
+
+
+input{
+
+
+background-color: rgb(213, 213, 213);
+
+
+}
+
+.login{
+  background-color: rgb(71, 71, 71);
+  color: white;
+font-weight: 600;
+
+
+  
+}
+
+legend{
+  font-size: 2rem;
+  font-weight: bolder;
+
+  
+}
+
+
+
+@media screen and (min-width: 1024px) {
+  .auth-page{
+    background-image: url(../../assets/fond-auth.jpg);
+  
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+
+
+
+}

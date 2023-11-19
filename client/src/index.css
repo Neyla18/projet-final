@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+:root{
+  --very-dark-pink: #490426 ; 
+  --orangered:rgb(208, 28, 15) ; 
+  --OldLace:#fffefe;
+
+
+}
+
+/* général  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+scroll-behavior: smooth;
+  
+}
+
+
+
+html {
+  font-size: 62.5%;
+
+}
+
+body{
+  font-size:1.6rem;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.5;
+ 
+}
+
+a{
+  text-decoration: none;
+}
+

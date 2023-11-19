@@ -1,0 +1,34 @@
+footer{
+    background-color:  var(--OldLace);
+    text-align: center;
+    padding: 2rem 0rem 2rem 0rem;
+  
+  }
+  
+  footer section {
+    margin: 3rem 1rem;
+
+  }
+
+  .menu-pied-page{
+    background-color: var(--very-dark-pink);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+  
+    
+  }
+  
+  .menu-pied-page a{
+    color: white;
+
+  }
+
+  iframe {
+  margin: auto;
+  width: 82%;
+  height: 56%;
+
+  }
+
+  

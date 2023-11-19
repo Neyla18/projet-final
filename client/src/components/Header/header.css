@@ -1,0 +1,169 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0 1rem;
+
+
+}
+
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  margin: 0 2rem;
+
+
+}
+
+div {
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+span {
+
+
+  font-size: 2rem;
+  color: var(--very-dark-pink);
+
+}
+
+.span1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.9rem;
+}
+
+
+.span2 {
+  font-size: 1.8rem;
+}
+
+.logo {
+  height: 7rem;
+
+
+}
+
+
+
+.menu-principal {
+  display: none;
+
+}
+
+.menu-principal.active {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fbf2f2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.menu-principal a {
+  color: black;
+}
+
+
+.nav-toggle {
+  position: absolute;
+
+  top: 45px;
+  right: 50px;
+
+  width: 25px;
+  border-radius: 50%;
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  font-size: 3rem;
+  color: var(--very-dark-pink);
+  margin-left: 22%;
+
+}
+
+.line {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--very-dark-pink);
+  transition: transform 0.3 ease-out;
+  opacity: 0.1s ease-out;
+  align-items: center;
+}
+
+.l1 {
+  transform: translateY(-10px);
+}
+
+.l3 {
+  transform: translateY(10px);
+}
+
+.nav-toggle.active .l1 {
+  transform: translate(0px) rotate(135deg);
+}
+
+.nav-toggle.active .l2 {
+  opacity: 0;
+}
+
+.nav-toggle.active .l3 {
+  transform: translate(0px) rotate(-135deg);
+}
+
+@media screen and (min-width: 1024px) {
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    padding: 5rem;
+    align-items: center;
+    left: 0;
+    right: 0;
+
+
+  }
+
+
+  .menu-principal {
+    display: flex;
+    margin-left: auto;
+
+
+
+  }
+
+  .menu-principal a:hover {
+    color: rgb(130, 52, 52);
+
+  }
+
+  .menu-principal a {
+    color: black;
+    text-decoration: none;
+    border-top: 2px solid transparent;
+    padding: 0.5rem 1rem;
+    margin-right: 5rem
+  }
+
+
+
+
+
+}
